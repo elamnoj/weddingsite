@@ -14,4 +14,5 @@ def home(request):
         'couple_name': settings.BRIDE_AND_GROOM,
         'wedding_location': settings.WEDDING_LOCATION,
         'wedding_date': settings.WEDDING_DATE,
+        'google_key': settings.GOOGLE_API_KEY
     })
