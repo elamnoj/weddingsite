@@ -51,7 +51,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join('weddingsite/bigday', 'templates'),
+            os.path.join(BASE_DIR, 'bigday/templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
