@@ -52,7 +52,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, '/bigday/templates'),
+            os.path.join(BASE_DIR, 'bigday/templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -160,6 +160,6 @@ DEFAULT_FROM_EMAIL='Jon + Elisa <contact@jon-elisa.com>'
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 try:
-    from .localsettings import *
+    from .settings import *
 except ImportError:
     pass
