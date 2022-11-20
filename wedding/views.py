@@ -7,7 +7,7 @@ from django.core.mail import EmailMessage
 def home(request):
     # email = EmailMessage('Testing', 'Testing email deployment from site', to=['Ensimmons623@gmail.com'])
     # email.send()
-    return render(request, './home.html', context={
+    return render(request, 'home.html', context={
         'save_the_dates': SAVE_THE_DATE_CONTEXT_MAP,
         'support_email': settings.DEFAULT_WEDDING_REPLY_EMAIL,
         'website_url': settings.WEDDING_WEBSITE_URL,
