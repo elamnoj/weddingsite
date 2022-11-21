@@ -117,10 +117,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_ROOT = 'static_root'
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    BASE_DIR,
-    os.path.join(BASE_DIR, 'static_root'),
+    os.path.join(BASE_DIR, 'weddingsite/bigday/static'),
 )
 
 # This is used in a few places where the names of the couple are used
