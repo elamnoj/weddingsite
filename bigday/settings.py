@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_ROOT = 'static_root'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'weddingsite/bigday/static'),
+    os.path.join(BASE_DIR, 'bigday/static'),
 )
 
 # This is used in a few places where the names of the couple are used
