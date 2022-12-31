@@ -34,7 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'guests.apps.GuestsConfig',
     'bigday',
-    "whitenoise.runserver_nostatic",  # new
+    "django.contrib.sitemaps",
+    "whitenoise.runserver_nostatic",  
 ]
 
 MIDDLEWARE = [
