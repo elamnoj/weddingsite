@@ -192,9 +192,6 @@ header {
     -o-background-size: cover;
 }
 
-/* #main-header {
-    /* background-image: url('../images/wedding-selfie-better.jpg'); */
-/* } */
 
 header .header-content {
     position: relative;
@@ -222,9 +219,6 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255);
 }
 
-#second-header {
-    background-image: url('../images/chapmans-peak-view.jpg');
-}
 
 @media(min-width:768px) {
     header {
